@@ -1,0 +1,20 @@
+.form__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form__container :nth-child(n){
+    height: 30px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.form__container a {
+    margin-top: 40px;
+}
+
+button{
+    cursor: pointer;
+}
+
